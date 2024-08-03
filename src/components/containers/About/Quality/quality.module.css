@@ -1,0 +1,200 @@
+
+.quality{
+    margin-top: 256px;
+}
+.container{
+    width: 1280px;
+    height: 474px;
+    background-color: #293039;
+    margin: auto;
+    border-radius: 10px;
+    padding: 0 85px;
+    display: flex;
+    justify-content: space-between;
+
+
+
+
+}
+.title{
+    font-family: fr;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 48px;
+    text-align: left;
+    color: #FEFCF7;
+    margin-top: 88px;
+    margin-bottom: 32px;
+
+}
+.text{
+    width: 540px;
+    height: 130px;
+    font-family: brRegular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: #D3D3D1;
+
+
+}
+
+.foto{
+    width: 445px;
+    height: 474px;
+    background: url(../../../../images/quality.png);
+    border-radius: 10px;
+    margin-top: -88px;
+}
+
+
+
+/* responsive */
+@media screen and (max-width: 1366px){
+    .container {
+        width: 1200px;
+    }
+
+}
+
+@media screen and (max-width: 1200px)
+{
+    /* 991-1200px */
+    .container{
+        width: 991px;
+        padding: 0 40px;
+    }
+    .container img{
+        width: 345px;
+        height: 374px;
+    }
+
+}
+
+@media screen and (max-width: 991px)
+{
+    /* 768-991px */
+    .container{
+        width: 768px;
+        height: 488px;
+        display: block;
+        padding-top: 224px;
+    }
+
+    .container img{
+        margin-top: 0;
+        width: 573px;
+        height: 320px;
+
+
+    }
+    .title {
+        margin: 0;
+    }
+    .foto{
+        width: 573px;
+        height: 320px;
+        margin: auto;
+        margin-top: -550px;
+        background: url(../../../../images/qualityMobile.jpg);
+    }
+    .title{
+        text-align: center;
+        margin-bottom: 24px;
+
+        font-size: 32px;
+        font-weight: 900;
+        line-height: 48px;
+        text-align: center;
+
+    }
+    .text{
+        width: 530px;
+        margin: auto;
+        text-align: center;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 25px;
+        text-align: center;
+
+    }
+
+  
+
+}
+
+@media screen and (max-width: 768px)
+{
+    /* 576-768px */
+    .container{
+        width: 576px;
+    }
+
+    .foto{
+        width: 379px;
+        height: 256px;
+
+
+    }
+
+  
+
+
+}
+
+@media screen and (max-width: 576px)
+{
+    /* 400-576px */
+    .container{
+        width: 400px;
+        height: 519px;
+        margin: auto;
+        padding-top: 100px;
+       
+    }
+    .text{
+        width: 100%;
+    }
+    .foto{
+        width: 279px;
+        height: 156px;
+        background:url(../../../../images/qualityMobile2.jpg)no-repeat center center  /cover;
+        margin-top: -440px;
+    }
+ 
+
+}
+
+@media screen and (max-width: 400px)
+{
+    /* 280-400 */
+    .container{
+        width: 300px;
+        padding: 1px 10px 0 10px ;
+        
+    }
+    .title{
+        width: 280px;
+        margin: auto;
+        font-family: Fraunces 9pt;
+        font-size: 28px;
+        font-weight: 900;
+        line-height: 28px;
+        text-align: center;
+        margin-top: 200px;
+        margin-bottom: 20px;
+
+    }
+    .foto{
+        /* margin: 0; */
+        margin-top: -450px;
+    }
+
+
+}
+
+@media screen and (max-width: 280px)
+{
+    /* 0-280 */
+}

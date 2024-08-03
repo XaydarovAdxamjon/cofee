@@ -1,0 +1,292 @@
+
+.coffee{
+    margin-top: 170px;
+}
+
+.container{
+    width: 1110px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item{
+    width: 255px;
+    display: flex;
+    /* justify-content: space-between; */
+    font-family:fr;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+    text-align: left;
+    margin-top: 24px;
+    color: #ADB0B2   ;
+    text-align: left;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #83888F;
+
+}
+.item:hover{
+    color: #848990;
+    cursor: pointer;
+}
+.item__number{
+    margin-right: 29px;
+}
+
+
+
+
+
+.how__coffee{
+    width: 730px;
+
+}
+.title{
+    font-family: fr;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 48px;
+    text-align: left;
+    color: #83888F;
+    margin-bottom: 56px;
+
+}
+.boxes{
+    margin-bottom: 88px;
+}
+.boxes__info{
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    width: 228px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: #F4F1EB;
+    padding: 32px 28px;
+
+
+}
+.box:hover{
+    background-color: #FDD6BA;
+    cursor: pointer;
+}
+.box__title{
+    font-family:fr;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+    text-align: left;
+
+}
+.box__info{
+    font-family: brRegular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    margin-top: 24px;
+
+}
+
+.result{
+    width: 730px;
+    height: 208px;
+    border-radius: 10px;
+    background-color: #293039;
+    padding: 27px 64px;
+}
+.result__name{
+    font-family: brRegular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: #95989D;
+
+}
+.result__info{
+    font-family: fr;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 40px;
+    text-align: left;
+    color: white;
+
+}
+.btns{
+    width: 217px;
+    height: 56px;
+    background-color: #66D2CF;
+    font-family: fr;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 25px;
+    text-align: center;
+    color: white;
+    border: none;
+    border-radius: 10px ;
+    margin-top: 40px;
+    margin-left: 513px;
+   
+
+}
+/* Existing styles */
+
+/* Existing styles */
+/* Existing styles */
+
+.selected {
+    background-color: #0E8784;
+    color: white;
+}
+.selected:hover {
+    background-color: #0E8784; /* Keep the background color the same on hover */
+    color: white; /* Keep the text color the same on hover */
+}
+
+.result__info__green {
+    color: #0E8684;
+}
+
+
+
+
+
+@media screen and (max-width: 1366px){
+    .container {
+        width: 1200px;
+    }
+
+}
+@media screen and (max-width: 1200px)
+{
+    /* 991-1200px */
+    .container{
+        width: 991px;
+       
+    }
+
+}
+
+@media screen and (max-width: 991px)
+{
+    /* 768-991px */
+    .container{
+        width: 768px;
+
+    }.coffee__type{
+        display: none;
+    }
+    .how__coffee{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+  .btns{
+    margin: auto;
+    margin-top: 40px;
+  }
+  .result{
+    margin: auto;
+  }
+
+}
+
+@media screen and (max-width: 768px)
+{
+    /* 576-768px */
+    .container{
+        width: 576px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .how__coffee{
+        width: 576px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .title{
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 28px;
+    text-align: center;
+
+    }
+    .boxes__info{
+        display: block;
+        margin: auto;
+    }
+    .box{
+        width: 328px;
+        height: 140px;
+        margin: auto;
+        margin-bottom: 16px;
+        padding: 24px 25px;
+    }
+    .box__info{
+        margin-top: 8px;
+    }
+    .result{
+        width: 428px;
+        height: 338px;
+        margin: auto;
+
+
+    }
+    .btns{
+        /* margin: auto !important; */
+        margin-top: 30px;
+        
+    }
+
+
+}
+
+@media screen and (max-width: 576px)
+{
+    /* 400-576px */
+    .container{
+        width: 400px;
+    }
+    .how__coffee{
+        width: 400px;
+    }
+    .result{
+        width: 400px;
+    }
+ 
+
+}
+
+@media screen and (max-width: 400px)
+{
+    /* 280-400 */
+    .container{
+        width: 280px;
+    }
+    .how__coffee{
+        width:280px;
+    }
+    .result{
+        width:280px;
+    }
+    .box{
+        width: 280px;
+    }
+ 
+
+}
+
+@media screen and (max-width: 280px)
+{
+    /* 0-280 */
+}
